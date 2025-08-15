@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+
 import './Contact.css'
 import msg_icon from '../../assets/msg-icon.png'
 import mail_icon from '../../assets/mail-icon.png'
@@ -13,11 +13,11 @@ const Contact = () => {
       <div className="contact-col">
         <h3>Send us a message <img src={msg_icon} alt="" /></h3>
         <p>feel freetoreach out through contact formor find our contact information below. Your feedback, questions, and suggestions are important to us as we strive to provide exceptional service to our university community.</p>
-        <ul>
-          <li> <img src={mail_icon} alt="" />mogesbekele32@gmail.com</li>
-          <li> <img src={phone_icon} alt="" />+251-964671617</li>
-          <li> <img src={location_icon} alt="" />Addis Ababa <br /> Ethiopia</li>
-        </ul>
+      <ul>
+  <li> <img src={mail_icon} alt="" />Contact me via <a href="https://www.upwork.com/freelancers/~yourprofile" target="_blank" rel="noreferrer">Upwork</a></li>
+  <li> <img src={phone_icon} alt="" />Available through Upwork messaging</li>
+  <li> <img src={location_icon} alt="" />Addis Ababa, Ethiopia</li>
+</ul>
       </div>
       <div className="contact-col">
         <form >
